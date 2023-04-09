@@ -19,11 +19,12 @@
     </head>
 
     <body>
+    <div class="wrapper">
     <header>
         <!-- Navigation HTML -->
         <div class="navbar">
-            <img class="logo" src="images/HRC_Logo.png" alt="Hutto Resource Center Logo" width="157.96" height="48">
-    
+            <img class="logo1" src="images/HRC_Logo.png" alt="Hutto Resource Center Logo" width="157.96" height="48">
+            <img class="logo2" src="images/HRC_logo2.png">
             <div class="nav_items">
                 <a href="#">About</a>
                 <a href="#">Get Help</a>
@@ -32,14 +33,16 @@
                 <button class="donateButton"> Donate </button>
                 <button class="searchButton"> <img id="icon" src="images/icon-search.png"> </button>      
             </div>
+            <div class="hamburger"> <img src="images/hamburgermenu.png" alt="HRC menu"> </div>
         </div>
+        <div class="donateHeader">Donate</div>
     </header>
 
     <!-- Hero Section-->
     <section class="heroContainer"> 
         <div class="flexColumn" id="heroSection"> 
             <h1 id="heroText"> Serving the Hutto Community to Improve Lives & Outcomes</h1>
-            <p id="heroText">The Hutto Resource Center helps families who are struggling to make ends meet, and senior citizens by providing essentials and well checks.</p>
+            <p class="heroParagraph" id="heroText">The Hutto Resource Center helps families who are struggling to make ends meet, and senior citizens by providing essentials and well checks.</p>
             <div class="buttonHolder"> 
                 <button class="heroButton1">Donate to HRC</button> 
                 <button class="heroButton2"> Receive Help</button> 
@@ -88,9 +91,11 @@
         </div>
     </section>
 
+    <br>
+    <br>
 
     <!--Updates Section-->
-    <section>
+    <section class="updatesSection">
         <div class="flexColumn"> 
             <h2 id="headingText">Latest News and Events</h2>
         <!-- </div>
@@ -124,7 +129,7 @@
         </div> -->
     </section>
 
-    <section id="eventGrid">
+    <section id="eventGrid" class="updatesSection">
         <div id="event1" class="eventGridArea">
             <div class="card2">
                 <img src="images/events1.png">
@@ -211,7 +216,7 @@
 </footer>
 
 
-
+</div>
 </body>
 
 </html>
